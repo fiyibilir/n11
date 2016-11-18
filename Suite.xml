@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite" preserve-order="true">
+
+    <test name="RunAllTest">
+        <classes>
+            <class name="RunAll"/>
+        </classes>
+    </test>
+    <test name="FacebookLogin">
+        <classes>
+            <class name="facebooklogintest.FacebookLoginTest"/>
+        </classes>
+    </test>
+    <test name="GoToAuthorsPage">
+        <classes>
+            <class name="gotoauthorspagetest.GoToAuthorsPageTest"/>
+        </classes>
+    </test>
+    <test name="AuthorsList">
+        <classes>
+            <class name="authorslisttest.AuthorsListTest"/>
+        </classes>
+    </test>
+</suite>
