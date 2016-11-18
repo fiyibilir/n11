@@ -26,7 +26,7 @@ public class AuthorsList extends Base {
     public void authorsListPagination() {
         List<WebElement> firstPageList = findWebElementList("#authorsList>div>ul>li");
         String lastElementOfFirstPage = firstPageList.get(firstPageList.size()-1).getText();
-        clickWebElement(".pagination>a:nth-of-type(12)");
+        clickWebElement(".pagination>a:nth-of-type(11)");
         waitForLoad(3);
         List<WebElement> secondPageList = findWebElementList("#authorsList>div>ul>li");
         String firstElementOfSecondPage = secondPageList.get(0).getText();
